@@ -4,7 +4,7 @@ using QrGenerator.Services;
 namespace QrGenerator.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("qr-api/QrController")]
     public class QrController : ControllerBase
     {
         private readonly QRService _qrService;
@@ -15,12 +15,12 @@ namespace QrGenerator.Controllers
         }
 
         [HttpGet("generate")]
-        public IActionResult GenerateQrCode([FromQuery] string url)
+        public IActionResult GenerateQrCode([FromQuery] string url, string qrType)
         {
             if (string.IsNullOrWhiteSpace(url))
                 return BadRequest("URL cannot be empty.");
 
-            var qrCodeImage = _qrService.GenerateQrCode(url);
+            var qrCodeImage = _qrService.GenerateQrCode(url, qrType);
             return File(qrCodeImage, "image/png");
         }
     }
