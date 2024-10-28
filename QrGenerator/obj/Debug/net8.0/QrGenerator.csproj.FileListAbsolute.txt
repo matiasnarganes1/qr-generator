@@ -34,3 +34,5 @@
 /Users/matiasalejandronarganes/Projects/qr-generator/QrGenerator/obj/Debug/net8.0/staticwebassets.build.endpoints.json
 /Users/matiasalejandronarganes/Projects/qr-generator/QrGenerator/obj/Debug/net8.0/staticwebassets/msbuild.QrGenerator.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 /Users/matiasalejandronarganes/Projects/qr-generator/QrGenerator/obj/Debug/net8.0/QrGenera.BCC00AF0.Up2Date
+/Users/matiasalejandronarganes/Projects/qr-generator/QrGenerator/bin/Debug/net8.0/QRCoder.dll
+/Users/matiasalejandronarganes/Projects/qr-generator/QrGenerator/obj/Debug/net8.0/QrGenerator.sourcelink.json
